@@ -21,7 +21,7 @@ const NavImage = ({
 }) => {
   return (
     <Image
-      src="/black-red-log.png"
+      src="/black-red-logo.png"
       alt="Logo for the website"
       width={width}
       height={height}
