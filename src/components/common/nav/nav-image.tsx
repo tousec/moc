@@ -8,8 +8,7 @@
 
 import Image from "next/image";
 
-const NavImage = ({
-  black = false,
+const NavImage = ({ 
   width = 100,
   height = 100,
   className = "",

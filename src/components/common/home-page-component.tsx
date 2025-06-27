@@ -264,7 +264,7 @@ const AboutFeatures: React.FC = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-                Why Choose <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Stars' English Centre?</span>
+                Why Choose <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Stars`&#39;` English Centre?</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
                 {about.description}

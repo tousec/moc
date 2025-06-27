@@ -20,8 +20,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
-import Image from "next/image";
+} from "@/components/ui/navigation-menu"; 
 import navData from "./nav-data";
 import NavImage from "./nav-image";
 
