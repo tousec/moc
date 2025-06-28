@@ -70,9 +70,9 @@ export function MainFooterComponent() {
       ],
     },
     contact: {
-      address: '123 English Lane, Badda, Dhaka, Bangladesh',
-      phone: '+880 1700 000 000',
-      email: 'info@starsenglish.com',
+      address: 'H-GA 103/1, 2 Floor, Link Road, Middle Badda, Dhaka-1212.',
+      phone: '+880 1332 517 881/4/5/7',
+      email: 'stars.englishcentrebd@gmail.com',
     },
     socials: [
       { Icon: Facebook, href: '#', label: 'Facebook' },
@@ -144,11 +144,12 @@ export function MainFooterComponent() {
             <p className="mb-4 text-slate-400">Subscribe to our newsletter for the latest updates and offers.</p>
             <div className="flex w-full max-w-sm items-center space-x-2">
               <Input
+                readOnly
                 type="email"
                 placeholder="Your email address"
                 className="bg-slate-800 border-slate-700 text-white placeholder:text-slate-500 focus:ring-cyan-500"
               />
-              <Button type="submit" className="bg-cyan-600 hover:bg-cyan-700 text-white">
+              <Button type="submit" className="bg-cyan-600 hover:bg-cyan-700 text-white" disabled>
                 Subscribe
               </Button>
             </div>
