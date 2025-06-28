@@ -13,13 +13,7 @@ const CustomNav1 = () => {
     name: string;
     url: string;
   }[];
-  const links: links = [
-    { name: 'Home', url: '/' },
-    { name: 'Media', url: '/dashboard/media' },
-    { name: 'RTK', url: '/dashboard/a__1_1001_users__/all' },
-    { name: 'Login', url: '/login' },
-    { name: 'Auth', url: '/auth' },
-    { name: 'Dashboard', url: '/dashboard' },
+  const links: links = [ 
   ];
 
   return (
