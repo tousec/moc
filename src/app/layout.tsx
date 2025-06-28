@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: '_common_1_Name',
-  description: '_common_2_Description',
+  title: "Stars/' English Centre",
+  description: "IELTS, Kids' English, Spoken English",
   manifest: '/manifest.json',
   icons: {
     apple: '/icons/icon-192x192.png',

@@ -1,7 +1,7 @@
 {
-  "name": "_common_1_Name",
-  "short_name": "_common_1_SortName",
-  "description": "_common_2_Description",
+  "name": "Stars/' English Centre",
+  "short_name": "STC",
+  "description":  "IELTS, Kids' English, Spoken English",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -47,3 +47,5 @@
     }
   ]
 }
+
+ 
