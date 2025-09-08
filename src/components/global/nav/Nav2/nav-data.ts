@@ -7,12 +7,12 @@
 */
 const navData = {
   baseInfo: {
-    firstName: 'B',
-    lastName: 'Varse',
+    firstName: 'Stars',
+    lastName: ' English Centre',
   },
   about: {
     groupTitle: 'About',
-    fullName: 'Beta Varse',
+    fullName: 'Stars English Centre',
     description: ' The best service provider for your business growth.',
     links: [
       {

@@ -7,6 +7,8 @@ import NextAuthProvider from './auth/components/SessionProvider';
 
 import { HeaderMainNav } from "@/components/common/main-nav-component/main-nav";
 import { MainFooterComponent } from "@/components/common/main-footer/main-footer";
+import NavLayoutTemplate from '@/components/global/nav/Template-Nav/NavLayoutTemplate';
+import MainFooter from '@/components/common/footer/MainFooter';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -37,14 +39,14 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextAuthProvider>
           <ReduxProvider>
-            {/* <NavLayoutTemplate /> */}
+            <NavLayoutTemplate />
             {/* {children} */}
             {/* <MainFooter /> */}
-            <div className="z-50 max-w-7xl mx-auto">
-        <HeaderMainNav />
-        </div>
-        {children}
-        <MainFooterComponent />
+            {/* <div className="z-50 max-w-7xl mx-auto">
+              <HeaderMainNav />
+            </div> */}
+            {children}
+            <MainFooterComponent />
           </ReduxProvider>
         </NextAuthProvider>
         <ToastContainer />

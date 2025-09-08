@@ -70,8 +70,8 @@ export function MainFooterComponent() {
       ],
     },
     contact: {
-      address: 'H-GA 103/1, 2 Floor, Link Road, Middle Badda, Dhaka-1212.',
-      phone: '+880 1332 517 881/4/5/7',
+      address: 'বাড্ডা (হেড অফিস): গ ১০৩/১, ৩য় তলা, গুলশান-বাড্ডা লিঙ্ক রোডের পূর্ব মাথায় প্রাণ সেন্টারের বিপরীতে, (বে শোরুমের উপরে)।',
+      phone: '1332-517884/5',
       email: 'stars.englishcentrebd@gmail.com',
     },
     socials: [
