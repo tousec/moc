@@ -1,0 +1,5 @@
+{
+  "name": "Glass Morphism Page Designer",
+  "description": "A responsive, Canva-like page design editor and viewer with a sleek glass morphism interface. It allows for rich text editing, image insertion, and provides live previews for mobile, tablet, and desktop viewports, saving content locally.",
+  "requestFramePermissions": []
+}

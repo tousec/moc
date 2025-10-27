@@ -4,11 +4,10 @@ import './globals.css';
 import { ReduxProvider } from '@/redux/provider';
 import { ToastContainer } from 'react-toastify';
 import NextAuthProvider from './auth/components/SessionProvider';
-
-import { HeaderMainNav } from "@/components/common/main-nav-component/main-nav";
+ 
 import { MainFooterComponent } from "@/components/common/main-footer/main-footer";
 import NavLayoutTemplate from '@/components/global/nav/Template-Nav/NavLayoutTemplate';
-import MainFooter from '@/components/common/footer/MainFooter';
+ 
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -40,7 +39,7 @@ export default function RootLayout({
         <NextAuthProvider>
           <ReduxProvider>
             <NavLayoutTemplate />
-            {/* {children} */}
+          
             {/* <MainFooter /> */}
             {/* <div className="z-50 max-w-7xl mx-auto">
               <HeaderMainNav />

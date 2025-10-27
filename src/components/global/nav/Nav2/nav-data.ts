@@ -1,78 +1,102 @@
 /*
 |-----------------------------------------
 | setting up Data for the App
-| @author: Toufiquer Rahman<toufiquer.0@gmail.com>
+| @author: Toufiquer Rahman
+| @company: Stars English Centre
 | @copyright: Toufiquer, May, 2024
 |-----------------------------------------
 */
+
 const navData = {
   baseInfo: {
     firstName: 'Stars',
     lastName: ' English Centre',
   },
+
   about: {
     groupTitle: 'About',
     fullName: 'Stars English Centre',
-    description: ' The best service provider for your business growth.',
+    description:
+      'Private-care English training centre providing professional courses, IELTS preparation, and corporate training programs.',
     links: [
       {
         id: 1,
-        title: 'Introduction',
-        url: '/',
-        description: 'We are a group of people to solve your problems',
+        title: 'Who We Are',
+        url: '/about',
+        description:
+          'Stars English Centre offers personalized English learning programs for students and professionals.',
       },
       {
         id: 2,
-        title: 'Installation',
-        url: '/',
-        description: 'We have more then three plan for your business',
+        title: 'Our Mission',
+        url: '/about#mission',
+        description:
+          'To help learners master English language skills and achieve global communication confidence.',
       },
       {
         id: 3,
-        title: 'Installation',
-        url: '/',
-        description: 'We have more then three plan for your business',
+        title: 'Why Choose Us',
+        url: '/about#why-us',
+        description:
+          'We ensure top-quality mentoring, modern course design, and 100% student support for success.',
       },
     ],
   },
+
   services: {
-    groupTitle: 'Services',
+    groupTitle: 'Courses & Services',
     data: [
       {
-        title: 'Supports',
-        href: '/',
-        description: 'A modal dialog that interrupts the user with important content and expects a response.',
+        title: 'Foundation English (Regular & Executive)',
+        href: '/courses/foundation-english',
+        description:
+          'Improve grammar, speaking, and writing skills in 2.5–3 months. Ideal for beginners.',
       },
       {
-        title: 'Preview',
-        href: '/',
-        description: 'For sighted users to preview content available behind a link.',
+        title: 'Advanced Spoken & Phonetics',
+        href: '/courses/advanced-spoken',
+        description:
+          'Enhance pronunciation, fluency, and confidence through advanced communication practice.',
       },
       {
-        title: 'Indicator',
-        href: '/',
-        description: 'Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.',
+        title: 'Grammar & Freehand Writing',
+        href: '/courses/grammar-writing',
+        description:
+          'Develop strong grammatical accuracy and writing flow for academic and professional success.',
       },
       {
-        title: 'Content',
-        href: '/',
-        description: 'Visually or semantically separates content.',
+        title: 'IELTS (Regular, Executive & Crash)',
+        href: '/courses/ielts',
+        description:
+          'Target your desired IELTS score with personalized training and mock tests.',
       },
       {
-        title: 'Tabs',
-        href: '/',
-        description: 'A set of layered sections of content—known as tab panels—that are displayed one at a time.',
+        title: 'PTE Academic / UK VI',
+        href: '/courses/pte',
+        description:
+          'Learn with structured guidance to achieve your desired PTE Academic or UK VI test score.',
       },
       {
-        title: 'Information',
-        href: '/',
-        description: 'A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.',
+        title: 'Kids & Juniors English',
+        href: '/courses/kids-juniors',
+        description:
+          'Long-term English development for school students focusing on speaking, writing, and reading.',
+      },
+      {
+        title: 'Corporate Training',
+        href: '/corporate-training',
+        description:
+          'Tailored English communication programs for businesses and professionals.',
       },
     ],
   },
+
   othersLink: [
-    { id: 2, title: 'Top Sells', url: '/top-sells' },
+    { id: 1, title: 'Home', url: '/' },
+    { id: 2, title: 'Admission', url: '/admission' },
     { id: 3, title: 'Contact', url: '/contact' },
+    { id: 4, title: 'Blog', url: '/blog' },
   ],
 };
+
 export default navData;
