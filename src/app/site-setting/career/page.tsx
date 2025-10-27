@@ -400,7 +400,7 @@ export default function EditCareerPage() {
                    </div>
                 </div>
               )) : (
-                 <p className="text-center text-white/60 py-4">No job openings created yet. Click "+ Add New Job" to start.</p>
+                 <p className="text-center text-white/60 py-4">No job openings created yet. Click &quot;+ Add New Job&quot; to start.</p>
               )}
             </div>
           </GlassCard>

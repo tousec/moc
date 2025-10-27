@@ -338,7 +338,7 @@ export default function ContactPage() {
               Get In Touch
             </h1>
             <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-              Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+              Have questions? We&quot;d love to hear from you. Send us a message and we&quot;ll respond as soon as possible.
             </p>
           </div>
 

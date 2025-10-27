@@ -610,7 +610,7 @@ export default function AdmissionPage() {
                 Ready to Start Your Journey?
               </h2>
               <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-                Don't miss this opportunity! Limited seats available. Apply now and secure your spot in our next batch.
+                Don&quot;t miss this opportunity! Limited seats available. Apply now and secure your spot in our next batch.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <button

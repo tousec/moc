@@ -293,7 +293,7 @@ export default function EditCoursePage() {
                    </div>
                 </div>
               )) : (
-                 <p className="text-center text-white/60 py-4">No courses created yet. Click "Add New Course" to start.</p>
+                 <p className="text-center text-white/60 py-4">No courses created yet. Click &quot;Add New Course&quot; to start.</p>
               )}
             </div>
           </GlassCard>

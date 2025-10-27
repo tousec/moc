@@ -367,7 +367,7 @@ function StoryCard({ story }: { story: SuccessStory }) {
       {isExpanded && (
         <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
           <p className="text-sm text-white/90 italic leading-relaxed">
-            "{story.testimonial}"
+            &quot;{story.testimonial}&quot;
           </p>
         </div>
       )}

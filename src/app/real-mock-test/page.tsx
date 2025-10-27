@@ -763,7 +763,7 @@ export default function MockTestPage() {
                         <div className="text-xs text-white/70">{testimonial.course}</div>
                       </div>
                     </div>
-                    <p className="text-white/80 italic">"{testimonial.text}"</p>
+                    <p className="text-white/80 italic">&quot;{testimonial.text}&quot;</p>
                   </div>
                 ))}
               </div>

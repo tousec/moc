@@ -643,7 +643,7 @@ export default function CareersPage() {
               <div className="text-center">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-r from-teal-400 to-purple-500 flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">2</div>
                 <h3 className="text-lg font-bold text-white mb-2">Submit Application</h3>
-                <p className="text-sm text-white/80">Click "Apply Now" and fill out the application form</p>
+                <p className="text-sm text-white/80">Click &quot;Apply Now&quot; and fill out the application form</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-r from-teal-400 to-purple-500 flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">3</div>
